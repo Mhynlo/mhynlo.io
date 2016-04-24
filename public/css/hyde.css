@@ -50,7 +50,10 @@ html {
   src: url(/public/invader.ttf);
 }
 
-
+@font-face{
+  font-family: "jthm";
+  src: url(/public/jthm2.ttf);
+}
 
 /*
  * Sidebar
@@ -76,19 +79,25 @@ html {
   }
 }
 
-/* Sidebar links */
-.sidebar a {
-  font-family: "invader";
-  color: #00ff00;
-}
 
 /* About section */
 .sidebar-about h1 {
   color: #00ff00;
   margin-top: 0;
-  font-family: "Abril Fatface", serif;
+  font-family: "invader";
   font-size: 3.25rem;
 }
+.sidebar-about p {
+  font-family: "jthm";
+}
+
+/* Sidebar links */
+.sidebar-nav a {
+  color: #00ff00;
+  font-family: "jthm";
+  font-size: 1.5rem;
+}
+
 .sidebar-about p {
   color: #00ff00;
   margin-top: 0;
@@ -107,10 +116,10 @@ html {
 }
 a.sidebar-nav-item:hover,
 a.sidebar-nav-item:focus {
-  text-shadow: 0 0 6px #bbb;
+  text-shadow: 0 0 6px #888;
 }
 .sidebar-nav-item.active {
-  text-shadow: 0 0 6px #aaa;
+  text-shadow: 0 0 6px #888;
 }
 
 /* Sticky sidebar
@@ -292,9 +301,11 @@ a.sidebar-nav-item:focus {
 }
 .theme-mhynlo .content a,
 .theme-mhynlo .related-posts li a:hover {
-  font-family: "invader";
+  font-family: "jthm";
+  font-weight: bold;
   color: #00ff00;
 }
 .sidebar .siteinfo{
+  color: #666;
   font-size: 12px;
 }
