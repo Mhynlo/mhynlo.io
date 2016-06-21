@@ -279,7 +279,7 @@ img {
 table {
   margin-bottom: 1rem;
   width: 100%;
-  border: 1px solid #e5e5e5;
+  /*border: 1px solid #e5e5e5;*/
   border-collapse: collapse;
 }
 td {
@@ -294,6 +294,10 @@ th {
 tbody tr:nth-child(odd) td,
 tbody tr:nth-child(odd) th {
   background-color: #444;
+}
+img.app-icon{
+  display:inline-block !important;
+  margin:auto;
 }
 
 
@@ -383,6 +387,9 @@ tbody tr:nth-child(odd) th {
 }*/
 .post img{
   display: block;
+  border: 2px;
+  border-style: solid;
+  border-color: #00bb00;
 }
 
 

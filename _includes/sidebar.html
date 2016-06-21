@@ -34,14 +34,10 @@
     </nav>
 
     <div class="social">
-      <a href="{{ site.social.twitter }}">
-        <img border="0" alt="twitter" src="/public/images/twitter_icon.png"></a>
-      <a href="{{ site.social.twitch }}">
-        <img border="0" alt="twitch" src="/public/images/twitch_icon.png"></a>
-      <a href="{{ site.social.steam }}">
-        <img border="0" alt="steam" src="/public/images/steam_icon.png"></a>
-      <a href="{{ site.social.github }}">
-        <img border="0" alt="github" src="/public/images/github_icon.png"></a>
+      {% for social in site.data.social_sites %}
+      <a href="{{ social.site_url }}">
+        <img border="0" alt="{{ social.site }}" src="{{ social.site_img}}"></a>
+      {% endfor %}
     </div>
     <div class="siteinfo">
       <span class="sidebar-nav-item">Currently v{{ site.version }}</span>

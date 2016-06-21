@@ -1,0 +1,52 @@
+div.card{
+  display: inline-block;
+  width: 280px;
+  height: 195px;
+  align-self: center;
+  padding: 0px 3px;
+  margin:0 10px 10px 0;
+  border-style: solid;
+  border-width: 1.5px;
+  box-shadow: 0 0 5px #aaa;
+  background-color: #222;
+  vertical-align: top;
+}
+img.rn-icon{
+  float: left;
+  /*display:list-item;*/
+  height: 100px;
+  width: 100px;
+  padding-top: 4px;
+  padding-right: 4px;
+}
+h2.rn-name{
+  margin: 5px;
+}
+p.desc{
+  font-size: 14px;
+}
+div.app_downloads{
+  font-size: 12px;
+  float: right;
+  vertical-align: bottom;
+  margin-right: 5px;
+  margin-top: -20px;
+}
+a.card-link{
+  font-size: 18px !important;
+}
+div.app_info{
+  width: 110px;
+  font-size: 12px;
+  float: left;
+  margin-left: 5px;
+  margin-top: -20px;
+}
+.app-date{
+  display: block;
+  margin-top: -.5rem;
+  margin-bottom: 0px !important;
+  font-family: "jthm";
+  font-style: italic;
+  color: #009900;
+}

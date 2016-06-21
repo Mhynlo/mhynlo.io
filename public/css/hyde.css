@@ -65,7 +65,6 @@ html {
 .sidebar {
   text-align: center;
   padding: 2rem 1rem;
-  color: rgba(255,255,255,.5);
   background-color: #202020;
 }
 @media (min-width: 48em) {
@@ -74,7 +73,7 @@ html {
     top: 0;
     left: 0;
     bottom: 0;
-    width: 18rem;
+    width: 14rem;
     text-align: left;
   }
 }
@@ -282,10 +281,9 @@ a.sidebar-nav-item:focus {
   -webkit-border-radius: 150px;
   -moz-border-radius: 150px;
   background: url(URL) no-repeat;
-  box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  box-shadow: 0 0 3px #bbb;
   -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
   -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
-  box-shadow: 0 0 3px #bbb;
 }
 .sidebar .social img{
   display: inline-block !important;
