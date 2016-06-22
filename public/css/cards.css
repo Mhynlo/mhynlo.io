@@ -14,6 +14,7 @@ div.card{
 img.rn-icon{
   float: left;
   /*display:list-item;*/
+  border-style: none;
   height: 100px;
   width: 100px;
   padding-top: 4px;
